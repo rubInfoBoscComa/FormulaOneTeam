@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/imgTeamDetail"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="61dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:text="Seu"
+            android:id="@+id/lblLocationTitle"
+            android:gravity="center_vertical|left"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="30dp"
+            android:text=""
+            android:gravity="center_vertical|right"
+            android:textSize="14dp"
+            android:textColor="@color/grey"
+            android:id="@+id/lblLocation" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Fundat"
+            android:id="@+id/lblBornTitle"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="100dp"
+            android:textStyle="bold"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/lblBorn"
+            android:gravity="center_vertical|right"
+            android:textSize="14dp"
+            android:textColor="@color/grey"
+            android:layout_marginRight="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:weightSum="1"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Campionats"
+            android:layout_marginRight="90dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/lblChampionShipTitle"
+            android:textStyle="bold"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/lblChampionShip"
+            android:gravity="center_vertical|right"
+            android:textSize="14dp"
+            android:textColor="@color/grey"
+            android:layout_marginRight="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Victòries"
+            android:layout_marginRight="100dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/lblVictoryTitle"
+            android:textStyle="bold"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/lblVictory"
+            android:gravity="center_vertical|right"
+            android:textSize="14dp"
+            android:textColor="@color/grey"
+            android:layout_marginRight="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="131dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="151dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Pilots"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/lblCurrentPilotTitle"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="135dp"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text=""
+                android:id="@+id/lblCurrentPilotOne"
+                android:layout_gravity="center_horizontal|right"
+                android:layout_marginRight="20dp"
+                android:textSize="14dp"
+                android:textColor="@color/grey"
+                />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"></LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text=""
+                android:id="@+id/lblCurrentPilotSecond"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical|right"
+                android:textSize="14dp"
+                android:textColor="@color/grey"
+                android:layout_marginRight="20dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <ImageButton
+                android:layout_width="160dp"
+                android:layout_height="38dp"
+                android:id="@+id/imgTwitter"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/button_twitter" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

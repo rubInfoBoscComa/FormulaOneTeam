@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Formula 1 Team</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_share">Compartir</string>
+    <string name="action_search">Cerca</string>
+    <string name="action_new">Nou Equip</string>
+    <string name="action_store">Guardar</string>
+    <string name="action_edit">Editar</string>
+    <string name="action_delete">Eliminar</string>
+    <string name="action_restore">Restaurar</string>
+    <string name="action_options">Opcions</string>
+</resources>

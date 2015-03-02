@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="negabur.app.f1team.formula1team" >
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".controlador.Splash"
+            android:label="Formula 1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".controlador.MainActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity android:name=".controlador.TeamDetail"
+            android:label="Team Detail"
+            android:parentActivityName=".controlador.MainActivity">
+        </activity>
+        <activity android:name=".controlador.NewTeam"
+            android:label="Team Detail"
+            android:parentActivityName=".controlador.MainActivity">
+        </activity>
+        <meta-data
+            android:name="com.crashlytics.ApiKey"
+            android:value="1af6a29d7a11f9025dd942478974b2bbdcd3e1d6" />
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+</manifest>

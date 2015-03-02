@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_search"
+        android:title="@string/action_search"
+        android:icon="@mipmap/ic_action_search"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView" />
+    <item
+        android:id="@+id/menu_new_form"
+        android:icon="@mipmap/ic_action_settings_white"
+        android:title="@string/action_options"
+        app:showAsAction="ifRoom|withText">
+        <menu>
+            <item
+                android:id="@+id/menu_item_new"
+                android:title="@string/action_new"
+                android:icon="@mipmap/ic_action_new_label_black"
+                app:showAsAction="ifRoom|collapseActionView" />
+            <item
+                android:id="@+id/menu_item_restore"
+                android:title="@string/action_restore"
+                android:icon="@mipmap/ic_action_refresh_black"
+                app:showAsAction="ifRoom|collapseActionView" />
+        </menu>
+    </item>
+</menu>
